@@ -1,0 +1,190 @@
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - 'HH parser'
+INFO:aiogram.event:Update id=598595574 is handled. Duration 184 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595575 is handled. Duration 83 ms by bot id=8586784453
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Инженер-конструктор', 'page': 0, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 218 vacancies, page 0
+INFO:hh_api:Page 0: got 100 items, total found: 218
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Инженер-конструктор', 'page': 1, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 218 vacancies, page 1
+INFO:hh_api:Page 1: got 100 items, total found: 218
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Инженер-конструктор', 'page': 2, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 218 vacancies, page 2
+INFO:hh_api:Page 2: got 18 items, total found: 218
+INFO:hh_api:Total vacancies collected: 218
+INFO:aiogram.event:Update id=598595576 is handled. Duration 2893 ms by bot id=8586784453
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - 'HH parser'
+INFO:aiogram.event:Update id=598595577 is handled. Duration 182 ms by bot id=8586784453
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:aiogram.event:Update id=598595585 is handled. Duration 176 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595586 is handled. Duration 82 ms by bot id=8586784453
+INFO:hh_api:Area resolved to ID: 1
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Светотехник', 'page': 0, 'per_page': 100, 'area': '1'}
+INFO:hh_api:HH API response: found 216 vacancies, page 0
+INFO:hh_api:Page 0: got 100 items, total found: 216
+INFO:hh_api:Area resolved to ID: 1
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Светотехник', 'page': 1, 'per_page': 100, 'area': '1'}
+INFO:hh_api:HH API response: found 216 vacancies, page 1
+INFO:hh_api:Page 1: got 100 items, total found: 216
+INFO:hh_api:Area resolved to ID: 1
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Светотехник', 'page': 2, 'per_page': 100, 'area': '1'}
+INFO:hh_api:HH API response: found 216 vacancies, page 2
+INFO:hh_api:Page 2: got 16 items, total found: 216
+INFO:hh_api:Total vacancies collected: 216
+INFO:aiogram.event:Update id=598595587 is handled. Duration 2947 ms by bot id=8586784453
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:aiogram.event:Update id=598595588 is handled. Duration 229 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595589 is handled. Duration 94 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595590 is handled. Duration 106 ms by bot id=8586784453
+INFO:hh_api:Area resolved to ID: 1
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Светотехник', 'page': 0, 'per_page': 100, 'area': '1'}
+INFO:hh_api:HH API response: found 216 vacancies, page 0
+INFO:hh_api:Page 0: got 100 items, total found: 216
+INFO:hh_api:Area resolved to ID: 1
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Светотехник', 'page': 1, 'per_page': 100, 'area': '1'}
+INFO:hh_api:HH API response: found 216 vacancies, page 1
+INFO:hh_api:Page 1: got 100 items, total found: 216
+INFO:hh_api:Area resolved to ID: 1
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Светотехник', 'page': 2, 'per_page': 100, 'area': '1'}
+INFO:hh_api:HH API response: found 216 vacancies, page 2
+INFO:hh_api:Page 2: got 16 items, total found: 216
+INFO:hh_api:Total vacancies collected: 216
+INFO:aiogram.event:Update id=598595591 is handled. Duration 3073 ms by bot id=8586784453
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:aiogram.event:Update id=598595592 is handled. Duration 278 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595593 is handled. Duration 85 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595594 is handled. Duration 144 ms by bot id=8586784453
+INFO:hh_api:Area resolved to ID: 1
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Скетотехник', 'page': 0, 'per_page': 100, 'area': '1'}
+INFO:hh_api:HH API response: found 216 vacancies, page 0
+INFO:hh_api:Page 0: got 100 items, total found: 216
+INFO:hh_api:Area resolved to ID: 1
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Скетотехник', 'page': 1, 'per_page': 100, 'area': '1'}
+INFO:hh_api:HH API response: found 216 vacancies, page 1
+INFO:hh_api:Page 1: got 100 items, total found: 216
+INFO:hh_api:Area resolved to ID: 1
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Скетотехник', 'page': 2, 'per_page': 100, 'area': '1'}
+INFO:hh_api:HH API response: found 216 vacancies, page 2
+INFO:hh_api:Page 2: got 16 items, total found: 216
+INFO:hh_api:Total vacancies collected: 216
+INFO:aiogram.event:Update id=598595595 is handled. Duration 2916 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595596 is handled. Duration 497 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595597 is handled. Duration 87 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595598 is handled. Duration 75 ms by bot id=8586784453
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Конструктор', 'page': 0, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 218 vacancies, page 0
+INFO:hh_api:Page 0: got 100 items, total found: 218
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Конструктор', 'page': 1, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 218 vacancies, page 1
+INFO:hh_api:Page 1: got 100 items, total found: 218
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Конструктор', 'page': 2, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 218 vacancies, page 2
+INFO:hh_api:Page 2: got 18 items, total found: 218
+INFO:hh_api:Total vacancies collected: 218
+INFO:aiogram.event:Update id=598595599 is handled. Duration 3264 ms by bot id=8586784453
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:aiogram.event:Update id=598595600 is handled. Duration 213 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595601 is handled. Duration 174 ms by bot id=8586784453
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Проектировщик', 'page': 0, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 217 vacancies, page 0
+INFO:hh_api:Page 0: got 100 items, total found: 217
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Проектировщик', 'page': 1, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 217 vacancies, page 1
+INFO:hh_api:Page 1: got 100 items, total found: 217
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Проектировщик', 'page': 2, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 217 vacancies, page 2
+INFO:hh_api:Page 2: got 17 items, total found: 217
+INFO:hh_api:Total vacancies collected: 217
+INFO:aiogram.event:Update id=598595602 is handled. Duration 2960 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595603 is handled. Duration 469 ms by bot id=8586784453
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+ERROR:aiogram.dispatcher:Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+WARNING:aiogram.dispatcher:Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8586784453)
+INFO:aiogram.dispatcher:Connection established (tryings = 1, bot id = 8586784453)
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+ERROR:aiogram.dispatcher:Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+WARNING:aiogram.dispatcher:Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8586784453)
+INFO:aiogram.dispatcher:Connection established (tryings = 1, bot id = 8586784453)
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:aiogram.event:Update id=598595604 is handled. Duration 142 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595605 is handled. Duration 62 ms by bot id=8586784453
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Маркетолог', 'page': 0, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 101 vacancies, page 0
+INFO:hh_api:Page 0: got 100 items, total found: 101
+INFO:hh_api:Area resolved to ID: 99
+INFO:hh_api:HH API request: https://api.hh.ru/vacancies with params: {'text': 'Маркетолог', 'page': 1, 'per_page': 100, 'area': '99'}
+INFO:hh_api:HH API response: found 101 vacancies, page 1
+INFO:hh_api:Page 1: got 1 items, total found: 101
+INFO:hh_api:Total vacancies collected: 101
+INFO:aiogram.event:Update id=598595606 is handled. Duration 1644 ms by bot id=8586784453
+WARNING:aiogram.dispatcher:Received SIGTERM signal
+INFO:aiogram.dispatcher:Polling stopped for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:aiogram.dispatcher:Polling stopped
+INFO:__main__:Starting HH Analytics Bot...
+INFO:aiogram.dispatcher:Start polling
+INFO:aiogram.dispatcher:Run polling for bot @Hhparset7lamp_bot id=8586784453 - '7lamp parser hh.ru'
+INFO:aiogram.event:Update id=598595607 is handled. Duration 158 ms by bot id=8586784453
+INFO:aiogram.event:Update id=598595608 is handled. Duration 155 ms by bot id=8586784453
+ERROR:aiogram.dispatcher:Failed to fetch updates - TelegramServerError: Telegram server says - Bad Gateway
+WARNING:aiogram.dispatcher:Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8586784453)
+INFO:aiogram.dispatcher:Connection established (tryings = 1, bot id = 8586784453)
