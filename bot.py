@@ -12,7 +12,11 @@ from config import BOT_TOKEN, ADMIN_USER_ID
 from hh_api import get_all_vacancies, get_area_id
 from analytics import analyze_vacancies, format_stats_report
 from pdf_generator import generate_pdf_report
+from database import Database
 import pandas as pd
+
+# Инициализация базы данных
+db = Database()
 
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
@@ -89,6 +93,31 @@ async def cmd_help(message: types.Message):
         "• Популярные навыки",
         parse_mode="HTML"
     )
+
+
+@dp.message(Command("stats"))
+async def cmd_stats(message: types.Message):
+    """Статистика использования бота (только для админа)"""
+    if message.from_user.id != ADMIN_USER_ID:
+        await message.answer("❌ Эта команда доступна только администратору.")
+        return
+
+    stats = db.get_stats()
+
+    lines = [
+        "📊 <b>Статистика бота:</b>",
+        "",
+        f"📈 Всего анализов: <b>{stats['total_analyses']}</b>",
+        f"📅 Анализов сегодня: <b>{stats['today_analyses']}</b>",
+        f"👥 Уникальных пользователей: <b>{stats['unique_users']}</b>",
+        "",
+        "🔥 <b>Топ запросов:</b>"
+    ]
+
+    for query, count in stats['top_queries'][:10]:
+        lines.append(f"   • {query}: {count}")
+
+    await message.answer("\n".join(lines), parse_mode="HTML")
 
 
 @dp.message(F.text == "❓ Помощь")
@@ -175,7 +204,19 @@ async def process_city(message: types.Message, state: FSMContext):
         
         # Анализируем
         stats = analyze_vacancies(vacancies)
-        
+
+        # Сохраняем в базу данных
+        try:
+            db.save_analysis(
+                query=query,
+                area=area_name,
+                user_id=message.from_user.id,
+                total_vacancies=len(vacancies),
+                stats=stats
+            )
+        except Exception as e:
+            logger.error(f"Error saving to database: {e}")
+
         # Формируем отчёт
         report = format_stats_report(stats, query, area_name)
         
