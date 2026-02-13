@@ -7,6 +7,9 @@ from datetime import datetime, timedelta
 
 HH_API_BASE = "https://api.hh.ru"
 
+# Настройка логирования
+logger = logging.getLogger(__name__)
+
 # Кэш для результатов поиска (в памяти)
 _cache = {}
 _cache_ttl = timedelta(minutes=30)
