@@ -47,7 +47,7 @@ async def search_vacancies(
 
     # Проверяем кэш только для первой страницы
     if use_cache and page == 0:
-        cache_key = _get_cache_key(text, area, salary_from, salary_to, experience, employment, schedule)
+        cache_key = _get_cache_key(text, area, salary_from=salary_from, salary_to=salary_to, experience=experience, employment=employment, schedule=schedule)
         cached = _get_from_cache(cache_key)
         if cached:
             logger.info(f"Cache hit for query: {text}")
@@ -93,7 +93,7 @@ async def search_vacancies(
 
                     # Сохраняем в кэш только первую страницу
                     if use_cache and page == 0:
-                        cache_key = _get_cache_key(text, area, salary_from, salary_to, experience, employment, schedule)
+                        cache_key = _get_cache_key(text, area, salary_from=salary_from, salary_to=salary_to, experience=experience, employment=employment, schedule=schedule)
                         _set_cache(cache_key, data)
 
                     return data
